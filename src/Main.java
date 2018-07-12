@@ -7,10 +7,11 @@ public class Main {
         Scanner sca = new Scanner(System.in);
        System.out.println("Please put a number");
         int x= sca.nextInt();
-        int Y = x+5;
-        int Z= Y*2;
-        int F = Z-7;
-        System.out.println(F);
+        int addedNumber = x+5;
+        int doubleNumber= addedNumber*2;
+        int subtractedNumber = doubleNumber-7;
+        System.out.println("This is the result");
+        System.out.println(subtractedNumber);
 
     }
 }
